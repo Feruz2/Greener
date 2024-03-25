@@ -48,7 +48,7 @@ export function NavBar() {
         color="blue-gray"
         className="p-1 font-normal font-epilogue"
       >
-        <a href="#current activities" className="flex items-center">
+        <a href="/#currentactivites" className="flex items-center">
           Current Activites
         </a>
       </Typography>
@@ -58,7 +58,7 @@ export function NavBar() {
         color="blue-gray"
         className="p-1 font-normal font-epilogue"
       >
-        <a href={"/gallery"} className="flex items-center">
+        <a href={"/"} className="flex items-center">
           Gallery
         </a>
       </Typography>
@@ -68,7 +68,7 @@ export function NavBar() {
         color="blue-gray"
         className="p-1 font-normal font-epilogue"
       >
-        <a href="/contact" className="flex items-center">
+        <a href="/contact-us" className="flex items-center">
           Contact Us
         </a>
       </Typography>

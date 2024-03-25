@@ -3,7 +3,8 @@ import { Typography } from "@material-tailwind/react";
 const LINKS = [
   {
     title: "Company",
-    items: [, "Home", "Current Activites", "About Us", "Gallery"],
+    items: ["Home", "Current Activites", "About Us", "Gallery"],
+    links: ["/", "#currentactivites", "/about-us", "/"],
   },
 ];
 
@@ -19,7 +20,7 @@ function Footer() {
           </Typography>
           <div className="grid grid-cols-3 justify-between gap-4">
             <div className="col-span-1">
-              {LINKS.map(({ title, items }) => (
+              {LINKS.map(({ title, items, links }) => (
                 <ul key={title}>
                   <Typography
                     color="white"
@@ -27,11 +28,11 @@ function Footer() {
                   >
                     {title}
                   </Typography>
-                  {items.map((link) => (
+                  {items.map((link, index) => (
                     <li key={link}>
                       <Typography
                         as="a"
-                        href="#"
+                        href={links[index]}
                         color="gray"
                         className="py-1.5 font-normal transition-colors hover:text-blue-gray-900"
                       >
@@ -69,7 +70,7 @@ function Footer() {
                   </svg>
                   <Typography
                     as="a"
-                    href="#"
+                    href=""
                     color="gray"
                     className="py-1.5 font-normal transition-colors hover:text-blue-gray-900"
                   >
@@ -93,7 +94,7 @@ function Footer() {
                   </svg>{" "}
                   <Typography
                     as="a"
-                    href="#"
+                    href=""
                     color="gray"
                     className="py-1.5 font-normal transition-colors hover:text-blue-gray-900"
                   >
