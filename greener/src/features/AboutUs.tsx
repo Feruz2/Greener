@@ -9,8 +9,8 @@ function AboutUS() {
         <div className=" flex items-center  ">
           <img
             className="w-[90%] h-auto object-cover object-center hidden md:block"
-            src="aboutUS.svg"
-            alt="hero image"
+            src="knowAboutUs.svg"
+            alt="about image"
           />
         </div>
         <div className="flex flex-col md:h-full justify-center w-[70%] pl-10">
