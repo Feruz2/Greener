@@ -4,7 +4,7 @@ function HeroPage() {
   return (
     <div className="container px-8 bg-gradient-to-r from-lime-50 to-white-500  w-full h-full md:h-screen">
       <div className="md:grid md:grid-cols-3 py-16 md:pt-2 md:h-full ">
-        <div className="md:col-span-1 flex flex-col  justify-center md:h-full mx-auto">
+        <div className="md:pl-10 md:col-span-1 flex flex-col justify-center md:h-full mx-auto">
           <Typography className="text-[#5cb25d] font-epilogue text-5xl lg:text-7xl font-bold pb-4">
             Built with us a better world
           </Typography>
@@ -30,7 +30,7 @@ function HeroPage() {
             </Button>
           </div>
         </div>
-        <div className="col-span-2 flex items-center justify-center">
+        <div className="col-span-2 md:pl-8 flex items-center justify-center">
           <img
             className="w-3/4 h-auto object-cover object-center hidden md:block"
             src="img.svg"

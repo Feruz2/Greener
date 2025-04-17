@@ -6,7 +6,7 @@ function AboutUS() {
   return (
     <div className="container px-8 bg-gradient-to-r from-lime-50 to-white-500 w-full h-full md:h-screen">
       <div className="md:grid md:grid-cols-2 py-16 md:pt-2 md:h-full ">
-        <div className=" flex items-center  ">
+        <div className=" md:pl-8 flex items-center  ">
           <img
             className="w-[90%] h-auto object-cover object-center hidden md:block"
             src="aboutUs.svg"

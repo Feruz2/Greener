@@ -11,7 +11,7 @@ function CurrentActivities() {
           Current Activities
         </Typography>
       </div>
-      <div className="flex space-x-6 mx-auto">
+      <div className="flex space-x-6 mx-auto ">
         <div className="flex flex-col">
           <img className="w-80 pb-2 " src="project3.svg" alt="project 1" />
           <Typography className="text-xl font-poppins font-bold pb-2">

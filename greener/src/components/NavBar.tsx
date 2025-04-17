@@ -58,7 +58,7 @@ export function NavBar() {
         color="blue-gray"
         className="p-1 font-normal font-epilogue"
       >
-        <a href={"/"} className="flex items-center">
+        <a href={"/gallery"} className="flex items-center">
           Gallery
         </a>
       </Typography>
